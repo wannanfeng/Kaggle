@@ -3,7 +3,6 @@ import torch
 import pandas as pd
 import math
 
-# README 有提示
 torch.set_default_tensor_type(torch.FloatTensor)  # 将默认的张量数据类型设置为浮点型（FloatTensor）
 
 train_data = pd.read_csv("train.csv")  # (1460, 81)
