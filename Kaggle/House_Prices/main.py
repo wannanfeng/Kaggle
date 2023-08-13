@@ -40,7 +40,7 @@ learning_rate = 0.003
 batch_size = 64
 weight_decay = 0.001
 if __name__ == '__main__':
-    target = 'train'
+    target = 'train'  # 'train' or 'test'
     if target == 'train':
         train_loss, test_loss = train(model, train_features_subset, train_labels_subset,
                                       test_features_subset, test_labels_subset, num_epochs, learning_rate,
